@@ -1,0 +1,146 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+  width: 90%;
+}
+a {
+	text-decoration: none;
+	color:#333;
+}
+.headarea {
+	background-color: #bbb;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	padding-left: 10px;
+	padding-right:10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-top:-90px;
+	position: fixed;
+}
+h1 {
+	font-size: 20px;
+}
+.icons {
+	margin-top:12px;
+}
+.icons img {
+	width: 25px;
+	height: 25px;
+	background: #333;
+}
+.sidebar {
+	background-color: #ddd;
+	width:200px;
+	height: 100%;
+	position: fixed;
+	top:50px;
+}
+ul {
+	padding:20px;
+	list-style: none;
+	margin:0;
+	text-align: center;
+}
+.sidebar li {
+	margin:10px;
+	color:#999;
+}
+.mainbit {
+	margin-left: 250px;
+	margin-top:90px;
+	margin-right:20px;
+}
+.ShortBit {
+	width: 100%;
+	background: aqua;
+}
+.TitleBit {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+.TitleBit h5 {
+	margin:0;
+	margin-right:10px;
+	padding:0;
+	white-space: nowrap;
+}
+.line {
+	border-bottom: solid 1px #333;
+	width: 100%;
+}
+.TitleBit p {
+	width: 90px;
+}
+.view {
+	width: 120px;
+	margin-left: 10px;
+}
+.boxes, .MainAddArea, .RForm {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.boxes img,a,.MainAddArea a{
+	width: 150px;
+	height: 150px;
+	border: 0;
+	background: #888;
+}
+.boxes p, {
+	padding-top: 20px;
+}
+.boxes span,.MainAddArea span {
+	font-size: 50px;
+	font-weight: bold;
+}
+.boxes a,.MainAddArea a {
+	text-align:center;
+}
+.MainAddArea p {
+	padding-top: 10px;
+}
+.MainAddArea {
+	max-width: 600px;
+	margin:auto;
+}
+.RForm {
+	margin-top: 20px;
+}
+.addimginputblok {
+	width: 400px;
+	padding-left:20px;
+}
+input {
+	outline: none;
+}
+#RName,#By {
+	width: 370px;
+	padding: 15px;
+	margin:0px;
+	font-size: 14px;
+}
+#By {
+	margin-top:10px;
+	margin-bottom:15px;
+}
+#public,#private {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#amount,#type {
+	line-height: 20px;
+}
+
+
+
+

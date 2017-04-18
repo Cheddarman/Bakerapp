@@ -1,8 +1,6 @@
 import React from 'react'
 class PRShort extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  
   render() {
     return (
       <div className='ShortBit'>
@@ -10,7 +8,7 @@ class PRShort extends React.Component {
         	<h5>Public Recipes</h5><span className='line' /><p className='view'>View all ></p>
         </div>
         <div className='boxes'>
-        	<img /><img /><img /><img /><img />
+        	<img alt='' /><img alt='' /><img alt='' /><img alt='' /><img alt='' />
         </div>
       </div>
     )

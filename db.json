@@ -1,46 +1,46 @@
 {
   "users": [
     {
-      "id":1,
-      "name":"Cheese"
+      "id": 1,
+      "uName": "Cheese"
     }
   ],
   "recipes": [
     {
-      "id":1,
-      "name":"Cookies",
-      "by":"Chef Name",
+      "id": 1,
+      "rName": "Cookies",
+      "by": "Chef Name",
       "type": "Dessert",
       "prepTime": "",
       "cookTime": "",
       "tempType": "F",
       "servingAmount": "",
-      "servingType":"",
-      "photo":""
+      "servingType": "",
+      "photo": ""
     }
   ],
   "steps": [
     {
-      "id":1,
-      "recipeId":1,
-      "directions":""
+      "id": 1,
+      "recipeId": 1,
+      "directions": ""
     }
   ],
   "ingredients": [
     {
-      "id":1,
-      "stepId":1,
-      "amount":2,
-      "unit":"cups",
-      "ingredient":"Bread Flour"
+      "id": 1,
+      "stepId": 1,
+      "amount": 2,
+      "unit": "cups",
+      "ingredient": "Bread Flour"
     }
   ],
   "notes": [
     {
-      "id":1,
-      "userId":1,
-      "recipeid":1,
-      "note":""
+      "id": 1,
+      "userId": 1,
+      "recipeid": 1,
+      "note": ""
     }
   ]
 }

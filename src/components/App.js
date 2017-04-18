@@ -6,9 +6,7 @@ import MainBit from './MainBit'
 import AddRecipe from './AddRecipe'
 
 class App extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  
   render() {
     return (
       <div>

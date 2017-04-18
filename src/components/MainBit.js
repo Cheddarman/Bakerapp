@@ -6,9 +6,7 @@ import PopRShort from './PopularRecipesShort'
 import MFRShort from './MyFavoriteRecipesShort'
 
 class MainBit extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+ 
   render() {
     return (
       <div>

@@ -106,7 +106,7 @@ ul {
 .boxes a,.MainAddArea a {
 	text-align:center;
 }
-.MainAddArea p {
+#addimage {
 	padding-top: 10px;
 }
 .MainAddArea {
@@ -138,9 +138,11 @@ input {
 	margin-right: 10px;
 }
 #amount,#type {
-	line-height: 20px;
+	line-height: 0px;
 }
-
+.willmake {
+	margin:0;
+}
 
 
 
